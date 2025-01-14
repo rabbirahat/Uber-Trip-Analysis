@@ -10,7 +10,6 @@ This repository contains a Jupyter Notebook that performs an analysis of Uber tr
 - [Usage](#usage)
 - [Analysis Summary](#analysis-summary)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -60,6 +59,3 @@ The results are saved to a summary text file named analysis_summary.txt.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
