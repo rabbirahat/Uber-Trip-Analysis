@@ -1,0 +1,3 @@
+Date with most completed trips: 2012-09-22 00:00:00 (248 trips)
+Highest number of completed trips in 24 hours: 248
+Hour with most requests: 23 (184 requests)
