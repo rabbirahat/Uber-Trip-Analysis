@@ -2,7 +2,18 @@
 2. Highest number of completed trips in 24 hours: 248
 3. Hour with most requests: 23 (184 requests)
 4. Percentage of Zeroes on Weekend: 45.07%
-5. Weighted Average Ratio of Completed Trips Per Driver: 0.51
+5. Weighted Average Ratio of Completed Trips Per Driver: 0      0.222222
+1      0.142857
+2      0.000000
+3      0.000000
+4      0.363636
+         ...   
+331         NaN
+332         NaN
+333         NaN
+334    0.333333
+335    0.285714
+Name: Unit, Length: 336, dtype: float64
 =============================================
 6. Busiest 8-Hour Period:           Date  Time (Local)  Eyeballs  Zeroes  Completed Trips  Requests  \
 274 2012-09-21            17        68      25               26        26   
@@ -14,15 +25,15 @@
 280 2012-09-21            23        94      30               36        46   
 281 2012-09-22             0        62       4               19        27   
 
-     Unique Drivers  Weekday  Rolling Requests  
-274              20        4              65.0  
-275              26        4              86.0  
-276              30        4             104.0  
-277              28        4             124.0  
-278              27        4             134.0  
-279              26        4             153.0  
-280              26        4             192.0  
-281              27        5             207.0  
+     Unique Drivers  Weekday      Unit  Rolling Requests  
+274              20        4  1.300000              65.0  
+275              26        4  0.576923              86.0  
+276              30        4  0.533333             104.0  
+277              28        4  0.500000             124.0  
+278              27        4  0.444444             134.0  
+279              26        4  0.884615             153.0  
+280              26        4  1.384615             192.0  
+281              27        5  0.703704             207.0  
 =============================================
 7. Correlation between Requests and Unique Drivers: 0.69
 8. 72-Hour Period with the Highest Ratio of Zeroes to Eyeballs:           Date  Time (Local)  Eyeballs  Zeroes  Completed Trips  Requests  \
@@ -38,18 +49,18 @@
 188 2012-09-18             3         4       4                0         3   
 189 2012-09-18             4         1       1                0         0   
 
-     Unique Drivers  Weekday  Rolling Requests  Rolling Zeroes  \
-118               0        5             122.0           242.0   
-119               0        5             102.0           243.0   
-120               1        5              74.0           245.0   
-121               2        5              53.0           253.0   
-122               2        5              42.0           261.0   
-..              ...      ...               ...             ...   
-185               4        1              61.0           443.0   
-186               1        1              53.0           444.0   
-187               0        1              51.0           436.0   
-188               0        1              45.0           438.0   
-189               0        1              41.0           438.0   
+     Unique Drivers  Weekday  Unit  Rolling Requests  Rolling Zeroes  \
+118               0        5   NaN             122.0           242.0   
+119               0        5   NaN             102.0           243.0   
+120               1        5  1.00              74.0           245.0   
+121               2        5  1.00              53.0           253.0   
+122               2        5  0.50              42.0           261.0   
+..              ...      ...   ...               ...             ...   
+185               4        1  0.75              61.0           443.0   
+186               1        1  2.00              53.0           444.0   
+187               0        1   NaN              51.0           436.0   
+188               0        1   NaN              45.0           438.0   
+189               0        1   NaN              41.0           438.0   
 
      Rolling Eyeballs  Zeroes to Eyeballs Ratio  
 118            1418.0                  0.170663  
@@ -64,7 +75,7 @@
 188            1499.0                  0.292195  
 189            1495.0                  0.292977  
 
-[72 rows x 12 columns]
+[72 rows x 13 columns]
 =============================================
 9. The best hour to add 5 drivers is: 23
 10. Total Days: 15

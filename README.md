@@ -58,4 +58,3 @@ The results are saved to a summary text file named analysis_summary.txt.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
